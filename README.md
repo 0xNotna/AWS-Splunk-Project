@@ -1,14 +1,23 @@
-# ⚙️ Cloud SOC Lab
+#  🧾 AWS Splunk Soc Lab 
 
-### Note: Work in progress
 
-## 🕐 Objective 
-- Build a cloud-based SOC lab using Microsoft Sentinel, Defender for Endpoint, Microsoft Defender for Office (MDO), and Entra ID
+## 🎯 Objective 
+To build and operate a Splunk SOC lab in AWS that demonstrates Defense in Depth, IAM, investigation and reporting incident reporting.
 
-- Develop and execute KQL queries to detect phishing, failed logins, and endpoint threats
+## 📊 What's Inside
+- AWS hosted Splunk deployment
+- Dashboard configurations - SOC Monitoring Visualisations 
+- Screenshots - SPL Queries, Splunk Interface, AWS Configurations
+- Incident report
+- Lessons Learned
 
-- Simulate phishing attacks and analyze quarantined messages via Threat Explorer
+## 🏗️ Architecture 
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/539f29d4-beb9-4490-812d-049be0d6381b" />
 
-- Configure Safe Links and Anti-Phishing policies to enhance real-time email protection
+## 🛠️ Technical Skills Demonstrated
+- AWS EC2, IAM, Security Groups, VPC
+- Splunk deployment and administration
+- Data ingestion
+- Dashboard creation and log analysis
+- Incident investigation and reporting
 
-- Perform end-to-end incident triage and reporting
