@@ -12,10 +12,10 @@ To build and operate a Splunk SOC lab in AWS that demonstrates Defense in Depth,
 - Lessons Learned
 
 ## 🏗️ Architecture 
-#### AWS/Splunk workflow
+#### AWS/SPLUNK WORKFLOW
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/539f29d4-beb9-4490-812d-049be0d6381b" />
 
-#### AWS/Splunk/N8N Workflow
+#### AWS/SPLUNK/N8N WORKFLOW
 
 ## 🛠️ Technical Skills Demonstrated
 - AWS EC2, IAM, Security Groups, VPC
