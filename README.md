@@ -1,4 +1,4 @@
-#  🧾 AWS Splunk Soc Lab 
+#  🧾 AWS Splunk Project
 
 
 ## 🎯 Objective 
@@ -20,4 +20,5 @@ To build and operate a Splunk SOC lab in AWS that demonstrates Defense in Depth,
 - Data ingestion
 - Dashboard creation and log analysis
 - Incident investigation and reporting
+-
 
