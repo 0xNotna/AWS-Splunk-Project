@@ -25,7 +25,7 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 ### ♨️ Key Components
 
 - EC2 Ubuntu victim machine: target host used to generate SSH brute-force telemetry.
-- Splunk Universal Forwarder: forwards auth.log events from the EC2 instance to Splunk.
+- Splunk Forwarder: forwards /var/log/auth.log events from the EC2 instance to Splunk.
 - Splunk Enterprise: ingests logs, runs detections, and triggers alerts.
 - n8n: receives Splunk webhook alerts and formats Slack notifications.
 - Slack: receives the final alert for analyst visibility.
