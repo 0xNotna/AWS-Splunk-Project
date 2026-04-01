@@ -8,7 +8,7 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 - AWS-hosted Splunk deployment
 - Linux authentication log ingestion into Splunk
 - Brute force detection using SPL
-- n8n alert automation workflow
+- n8n alert automation and enrichment workflow
 - Slack alert delivery
 - Dashboard configurations for security monitoring
 - Screenshots of SPL queries, Splunk alerts, AWS configurations, and workflow execution
