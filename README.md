@@ -17,7 +17,8 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 
 ## 🏗️ Architecture 
 #### AWS/SPLUNK/N8N WORKFLOW
-<img width="2106" height="1109" alt="image" src="https://github.com/user-attachments/assets/fb345283-5566-449a-8c20-14f6aaf013e8" />
+<img width="1725" height="917" alt="image" src="https://github.com/user-attachments/assets/37aaf8a1-22c7-4018-8d62-57c39c5eed70" />
+
 
 
 
