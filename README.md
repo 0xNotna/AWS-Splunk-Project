@@ -1,27 +1,32 @@
-#  🧾 AWS Splunk Project
+#  🧾 AWS Splunk & Alert automation Project
 
 
 ## 🎯 Objective 
-To build and operate a Splunk SOC lab in AWS that demonstrates Defense in Depth, IAM, investigation and reporting incident reporting.
+To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activity against a Linux EC2 instance and automates alert delivery through n8n and Slack. The project demonstrates cloud-based log monitoring, alert engineering, workflow automation, investigation, and incident reporting.
 
 ## 📊 What's Inside
-- AWS hosted Splunk deployment
-- Dashboard configurations - SOC Monitoring Visualisations 
-- Screenshots - SPL Queries, Splunk Interface, AWS Configurations
-- Incident report
-- Lessons Learned
+- AWS-hosted Splunk deployment
+- Linux authentication log ingestion into Splunk
+- Brute force detection using SPL
+- n8n alert automation workflow
+- Slack alert delivery
+- Dashboard configurations for security monitoring
+- Screenshots of SPL queries, Splunk alerts, AWS configurations, and workflow execution
+- Incident Report
+- Lessons learned
 
 ## 🏗️ Architecture 
-#### AWS/SPLUNK WORKFLOW
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/539f29d4-beb9-4490-812d-049be0d6381b" />
-
 #### AWS/SPLUNK/N8N WORKFLOW
+<img width="2106" height="1109" alt="image" src="https://github.com/user-attachments/assets/fb345283-5566-449a-8c20-14f6aaf013e8" />
+
+
+
 
 ## 🛠️ Technical Skills Demonstrated
-- AWS EC2, IAM, Security Groups, VPC
+- AWS EC2, IAM, Security Groups, and VPC fundamentals
 - Splunk deployment and administration
-- Data ingestion
+- Brute-force detection using SPL
+- Alert automation with n8n webhooks
+- Slack-based security notification workflow
 - Dashboard creation and log analysis
-- Incident investigation and reporting
--
-
+- Incident investigation and report
