@@ -14,13 +14,24 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 - Screenshots of SPL queries, Splunk alerts, AWS configurations, and workflow execution
 - Incident Report
 - Lessons learned
+  
+---------
 
 ## 🏗️ Architecture 
 #### AWS/SPLUNK/N8N WORKFLOW
-<img width="1725" height="917" alt="image" src="https://github.com/user-attachments/assets/37aaf8a1-22c7-4018-8d62-57c39c5eed70" />
+<img width="1516" height="911" alt="image" src="https://github.com/user-attachments/assets/98c992e5-11ce-4e11-879c-b16ae7a51403" />
 
 
+### ♨️ Key Components
 
+- EC2 Ubuntu victim machine: target host used to generate SSH brute-force telemetry.
+- Splunk Universal Forwarder: forwards auth.log events from the EC2 instance to Splunk.
+- Splunk Enterprise: ingests logs, runs detections, and triggers alerts.
+- n8n: receives Splunk webhook alerts and formats Slack notifications.
+- Slack: receives the final alert for analyst visibility.
+- Kali attacker workstation: generates controlled failed SSH attempts for the lab.
+
+---------
 
 
 ## 🛠️ Technical Skills Demonstrated
