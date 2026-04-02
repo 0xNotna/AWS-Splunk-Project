@@ -8,7 +8,7 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 - AWS-hosted Splunk deployment
 - Linux authentication log ingestion into Splunk
 - Brute force detection using SPL
-- n8n alert automation and enrichment workflow
+- Tines alert automation and enrichment workflow
 - Slack alert delivery
 - Dashboard configurations for security monitoring
 - Screenshots of SPL queries, Splunk alerts, AWS configurations, and workflow execution
@@ -18,8 +18,9 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 ---------
 
 ## 🏗️ Architecture 
-#### AWS/SPLUNK/N8N WORKFLOW
-<img width="1516" height="911" alt="image" src="https://github.com/user-attachments/assets/98c992e5-11ce-4e11-879c-b16ae7a51403" />
+#### AWS/SPLUNK/TINES WORKFLOW
+<img width="1498" height="886" alt="image" src="https://github.com/user-attachments/assets/22e8fc4e-e0ee-4676-9103-b1d52e594e69" />
+
 
 
 ### ♨️ Key Components
@@ -27,7 +28,7 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 - EC2 Ubuntu victim machine: target host used to generate SSH brute-force telemetry.
 - Splunk Forwarder: forwards /var/log/auth.log events from the EC2 instance to Splunk.
 - Splunk Enterprise: ingests logs, runs detections, and triggers alerts.
-- n8n: receives Splunk webhook alerts and formats Slack notifications.
+- Tines: receives Splunk webhook alerts enriches and formats Slack notifications.
 - Slack: receives the final alert for analyst visibility.
 - Kali attacker workstation: generates controlled failed SSH attempts for the lab.
 
@@ -38,7 +39,7 @@ To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activ
 - AWS EC2, IAM, Security Groups, and VPC fundamentals
 - Splunk deployment and administration
 - Brute-force detection using SPL
-- Alert automation with n8n webhooks
+- Alert automation with Tines webhooks
 - Slack-based security notification workflow
 - Dashboard creation and log analysis
 - Incident investigation and report
