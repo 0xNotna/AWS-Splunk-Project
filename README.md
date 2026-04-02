@@ -2,7 +2,7 @@
 
 
 ## 🎯 Objective 
-To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activity against a Linux EC2 instance and automates alert delivery through n8n and Slack. The project demonstrates cloud-based log monitoring, alert engineering, workflow automation, investigation, and incident reporting.
+To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activity against a Linux EC2 instance and automates alert delivery through Tines and Slack. The project demonstrates cloud-based log monitoring, alert engineering, workflow automation, investigation, and incident reporting.
 
 ## 📊 What's Inside
 - AWS-hosted Splunk deployment
