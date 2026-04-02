@@ -5,7 +5,7 @@
 To build and operate an AWS-hosted Splunk SOC lab that detects brute-force activity against a Linux EC2 instance and automates alert delivery through Tines and Slack. The project demonstrates cloud-based log monitoring, alert engineering, workflow automation, investigation, and incident reporting.
 
 ## 📊 What's Inside
-- AWS-hosted Splunk deployment
+- AWS-hosted EC2
 - Linux authentication log ingestion into Splunk
 - Brute force detection using SPL
 - Tines alert automation and enrichment workflow
